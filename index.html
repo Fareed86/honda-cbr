@@ -9,26 +9,109 @@
     <!-- bootstrap stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
+        <!-- Header starts -->
         <section class="container header-section">
-            <div class="row">
-                <div class="col-lg-6">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-lg-6 col-sm-12 text-white">
                     <p>Computer-controlled digital transistorized with electronic advance</p>
-                    <h1>Honda CBR 300R</h1>
+                    <h1 class="w-125">Honda CBR 300R</h1>
                     <p>Bangladesh Honda Private Limited (BHL) operates in a single industry segment in Bangladesh under
                         a joint venture between Honda Motor Company Limited, Japan and Bangladesh Steel and Engineering
-                        Corporation (State Own Corporation) under The Ministry of Industry</p>
-                    <button>Purchase</button>
+                        Corporation (State Own Corporation) under.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn my-3 header-button text-white px-5" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Purchase
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-dark" id="exampleModalLabel">Explore bikes</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-dark">
+                                    purchase it?
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-6">
-                    <img src="images/header-bike.png" alt="">
+                <div class="col-lg-6 col-sm-2">
+                    <img class="img-fluid" src="images/header-bike.png" alt="">
                 </div>
             </div>
         </section>
+        <!-- header ends -->
     </header>
+    <main>
+        <!-- featured section starts -->
+        <section class="container featured-section">
+            <div class="text-center mb-5">
+                <h1>Fetured Bikes 2021</h1>
+                <p><small class="orange fw-bold">Best Bike Collection</small></p>
+            </div>
+            <div class="row d-flex featured-row justify-content-center gx-5">
+                <div class="col-lg-3 col-sm-6 ms-5 mb-5">
+                    <img class="w-100 gray" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-lg-3 col-sm-6 ms-5 mb-5">
+                    <img class="w-100" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-lg-3 col-sm-6 ms-5 mb-5">
+                    <img class="w-100 gray" src="images/feature-bike.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- client section -->
+        <section class="container">
+            <div class="card-group">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height action.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
 
 

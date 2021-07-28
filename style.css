@@ -1,3 +1,26 @@
-.header-section{
+header{
     background: #264653;
+}
+.header-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.header-button{
+    background-color: #E76F51;
+}
+.featured-section{
+    margin-top: 65px;
+}
+.orange{
+    color: #E76F51;
+}
+.featured-row .col-lg-3{
+    margin-right: 50px;
+}
+.gray{
+    filter: grayscale(100%);
+}
+
+@media only screen and (max-width: 668px) {
+    
 }
