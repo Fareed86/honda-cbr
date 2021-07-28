@@ -20,7 +20,30 @@ header{
 .gray{
     filter: grayscale(100%);
 }
-
-@media only screen and (max-width: 668px) {
-    
+.client-section{
+    margin-top: 100px;
+}
+.client-heading{
+    margin-bottom: 50px;
+}
+.card-image{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.fa-star{
+    color: rgb(209, 129, 25);
+    margin: 4px;
+}
+.client-name{
+    color: #23A6F0;
+}
+.faq-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.faq-heading{
+    margin-bottom: 100px;
+}
+.faq-image{
+    margin-bottom: 80px;
 }
